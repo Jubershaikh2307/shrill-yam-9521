@@ -6,6 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
+Th{
+  color: blue.700;
+}
+Td{
+  color:gray;
+  font-size: 13px;
+  padding-top: -10px;
+  border-right: "1px solid black";
+
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
