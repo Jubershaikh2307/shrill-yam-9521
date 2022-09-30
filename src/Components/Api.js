@@ -11,5 +11,6 @@ async function postData(email,password,number){
           headers: { "Content-Type": "application/json" },
         }
       );
+      return data;
 }
 export {getData,postData}
