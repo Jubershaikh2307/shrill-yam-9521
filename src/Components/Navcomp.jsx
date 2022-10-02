@@ -1,12 +1,8 @@
-import { Box,Popover,Text,Select,
+import { Box,Popover,Text,
     PopoverTrigger,
     PopoverContent,
-    PopoverHeader,
     PopoverBody,
-    PopoverFooter,
-    PopoverArrow,
-    PopoverCloseButton,
-    PopoverAnchor, } from '@chakra-ui/react'
+    PopoverArrow, } from '@chakra-ui/react'
 export function Todayspaper(){
     return(
     
@@ -18,7 +14,6 @@ export function Todayspaper(){
       role='button'
       aria-label='Some box'
       p={3}
-    //   w='120px'
       bg='white'
       children="TODAY'S PAPER"
       color='gray.500'
